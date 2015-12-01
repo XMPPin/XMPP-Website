@@ -1,0 +1,14 @@
+{
+    "name":             "XMPPin",
+    "description":      "This is the second creation of my website for this project, this took on a more modern version and style.",
+    "keywords":         ["xmpp", "prosody", "server"],
+    "homepage":         "https://xmpp.in/",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "Francis Baker",
+            "email":        "hi@fpb.im",
+            "homepage":     "https://fpb.im",
+        }
+    ]
+}
