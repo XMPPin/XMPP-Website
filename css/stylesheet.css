@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #DDD;
+    background-color: #333;
+    margin: 1.6%;
+}
+.nav {
+    padding-top: .6em;
+    padding-bottom: .8em;
+}
+.left li {
+    list-style: none;
+    padding: 1em;
+    display: inline;
+}
+.left a {
+    color: #DDD;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+}
+.header a {
+    align-content: center !important;
+    text-align: center;
+}
+.header img {
+    text-align: center;
+    align-content: center !important;
+    padding-top: .7em !important;
+    width: 100%;
+}
+
+#about {
+    padding-top: 5em;
+}
+#about h3 {
+    font-weight: 800;
+    font-size: 2.5em;
+}
+#about p {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#stats {
+    
+}
+#donations {
+    padding-top: 2em;
+}
+#donations h3 {
+    
+}
+#donations p {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+#contact {
+    
+}
+#contact h3 {
+    padding-top: 2em;
+}
+#contact p {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+#contact input,textarea {
+    background-color: transparent;
+    border: none;
+    margin: .15em;
+    padding-left: 10px;
+    color: white;
+    
+}
+#contact input {
+    border-radius: .6em;
+    font-size: 16px;
+    border-color: #DDD;
+    border: .15em solid;
+    color: white;
+    width: 16%;
+    padding: .4em;
+}
+#left {
+    
+}
+#contact textarea {
+    width: 33%;
+    height: 6em;
+    border-radius: .6em;
+    font-size: 16px;
+    resize: none;
+    border-color: #DDD;
+    border: .15em solid;
+    color: white;
+}
+#submit:hover {
+    background-color: peru;
+    color: #DDD;
+}
+input::-webkit-input-placeholder {
+color: #DDD !important;
+} 
+input:-moz-placeholder { /* Firefox 18- */
+color: #DDD !important;  
+}
+input:-ms-input-placeholder {  
+color: #DDD !important;  
+}
+textarea::-webkit-input-placeholder {
+color: #DDD !important;
+} 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #DDD !important;  
+}
+textarea:-ms-input-placeholder {  
+color: #DDD !important;  
+}
+form {
+    align-content: center;
+    text-align: center;
+}
+@media only screen and (max-width: 766px){
+    #contact input { width: 27%; font-size: 14px; padding: .4em;
+    }
+    #contact textarea { width: 55%; 
+    } 
+}
+@media only screen and (max-width: 480px){
+    #contact input { width: 45%; font-size: 14px; padding: .4em;
+    }
+    #contact textarea { width: 95%; font-size: 14px;
+    } 
+}
+
+footer span {
+    text-align: right;
+    margin-right: 2em;
+}
